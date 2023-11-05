@@ -17,12 +17,11 @@ import lombok.SneakyThrows;
 
 @Component
 public class PdfGenerator {
-    private static final String FONT_WATERMARK = "fonts/cour.ttf";
+    private static final String FONT_WATERMARK = "fonts/MALGUN.TTF";
     private static final String FONT_CONTENTS1 = "fonts/NotoSansKR-Regular.otf";
     private static final String FONT_CONTENTS2 = "fonts/MALGUN.TTF";
     private static final String FONT_CONTENTS3 = "fonts/H2GTRE.TTF";
-    private static final String FONT_CONTENTS4 = "fonts/msgothic.ttc";
-    private static final String[] FONTs = {FONT_CONTENTS1, FONT_CONTENTS2, FONT_CONTENTS3, FONT_CONTENTS4, FONT_WATERMARK};
+    private static final String[] FONTs = {FONT_CONTENTS1, FONT_CONTENTS2, FONT_CONTENTS3, FONT_WATERMARK};
 
     @SneakyThrows
     private ITextRenderer renderer(String... fonts) {
