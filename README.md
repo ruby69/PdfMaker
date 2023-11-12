@@ -6,4 +6,5 @@ It is built using [Spring Boot](http://projects.spring.io/spring-boot/), [Mustac
 
 
 ## Usage
-![대체 텍스트](./doc/demo.jpg)
+![a demo using Postman API](./doc/demo.jpg)
+
