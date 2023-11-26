@@ -2,9 +2,6 @@ spring:
   application.name: pdfmaker
   profiles.active: dev
 
-  cache:
-    type: redis
-
   webflux:
     base-path: /api
     multipart:
@@ -53,7 +50,7 @@ spring:
   config.activate.on-profile: product
   
 app_props:
-  allowedOriginPatterns: '*localhost*'
+  allowedOriginPatterns: '*.dii.im'
   pdf:
     master-secret: helloworld 
   
